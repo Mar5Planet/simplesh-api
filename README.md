@@ -50,4 +50,4 @@ This is the back-end API for the simplesh application. Once done completing setu
 * [Thoughts controller](app/controllers/thoughts_controller.rb)
 * [specs](spec/requests/)
 * [Routes](config/routes.rb)
-* [API Route Constraint](app/constraints/api_constraint.rb)
+* [Models](app/models)
