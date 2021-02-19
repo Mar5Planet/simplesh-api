@@ -1,7 +1,7 @@
 Simplesh-api
 ===========================
 
-This is the back-end API for the simplesh application. Once done completing setup with the this API, please visit [here](https://github.com/Mar5Planet/simplesh-frontend) for the front end React setup instructions.
+This is the back-end API for the simplesh application. Once done completing setup with this API, please visit [here](https://github.com/Mar5Planet/simplesh-frontend) for the front end React setup instructions.
 
 ## Requirements
 
