@@ -4,6 +4,8 @@ Simplesh-api
 
 This is the back-end API for the simplesh application. Once done completing setup with this API, please visit the front end repo [here](https://github.com/Mar5Planet/simplesh-frontend) for the front end React setup instructions.
 
+The simplesh application is designed to simplify conversations, their corresponding messages, and thoughts attributed to those messages. You may add conversations, visit existing conversations and add messages or thoughts.
+
 ## Requirements
 
 * [Ruby](https://www.ruby-lang.org/en/documentation/installation/) (Ruby 2.7.0)
