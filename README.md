@@ -1,7 +1,7 @@
 Simplesh-api
 ===========================
 
-This is the back-end API for the simplesh application. Once done completing setup with this API, please visit [here](https://github.com/Mar5Planet/simplesh-frontend) for the front end React setup instructions.
+This is the back-end API for the simplesh application. Once done completing setup with this API, please visit the front end repo [here](https://github.com/Mar5Planet/simplesh-frontend) for the front end React setup instructions.
 
 ## Requirements
 
@@ -30,8 +30,7 @@ This is the back-end API for the simplesh application. Once done completing setu
 3. Run rspec tests
 
    ```
-   $ bin/rspec
-   ... 0 failures
+   $ rspec
    ```
    
 4. Create, migrate, seed database and run server
