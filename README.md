@@ -6,7 +6,7 @@ This is the back-end API for the simplesh application. Once done completing setu
 
 ## Requirements
 
-* [Ruby](https://www.ruby-lang.org/en/documentation/installation/) (written with Ruby 2.7.0)
+* [Ruby](https://www.ruby-lang.org/en/documentation/installation/) (Ruby 2.7.0)
 * [Bundler for Ruby](http://bundler.io/), a dependency manager
 * Right version of Development Kit, if you are using Windows.
 * The [RubyGems](https://guides.rubygems.org/) packaging system, which is installed with Ruby by default. 
