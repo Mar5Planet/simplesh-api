@@ -18,7 +18,7 @@ This is the back-end API for the simplesh application. Once done completing setu
 1. Clone the repo
 
    ```
-   $ git clone https://github.com/Mar5Planet/simplesh-api.git (HTTPS)
+   $ git clone https://github.com/Mar5Planet/simplesh-api.git 
    $ cd simplesh-api
    ```
 
