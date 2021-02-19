@@ -1,6 +1,6 @@
 Simplesh-api
 ===========================
-![alt text](https://ibb.co/TrrbvKM)
+![alt text](https://i.ibb.co/HXXxFNT/Screen-Shot-2021-02-18-at-9-56-51-PM.png)
 
 This is the back-end API for the simplesh application. Once done completing setup with this API, please visit the front end repo [here](https://github.com/Mar5Planet/simplesh-frontend) for the front end React setup instructions.
 
