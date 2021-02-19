@@ -1,24 +1,54 @@
-# README
+Simplesh-api
+===========================
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the back-end API for the simplesh application. Once done completing setup with the this API, please visit [here](https://github.com/Mar5Planet/simplesh-frontend) for the front end React setup instructions.
 
-Things you may want to cover:
+## Requirements
 
-* Ruby version
+* [Ruby](https://www.ruby-lang.org/en/documentation/installation/) (written with Ruby 2.7.0)
+* [Bundler for Ruby](http://bundler.io/), a dependency manager
+* Right version of Development Kit, if you are using Windows.
+* The [RubyGems](https://guides.rubygems.org/) packaging system, which is installed with Ruby by default. 
+* A working installation of the SQLite3 Database.
 
-* System dependencies
 
-* Configuration
+## Getting Started
 
-* Database creation
+1. Clone the repo
 
-* Database initialization
+   ```
+   $ git clone https://github.com/Mar5Planet/simplesh-api.git (HTTPS)
+   $ cd simplesh-api
+   ```
 
-* How to run the test suite
+2. Install dependencies
 
-* Services (job queues, cache servers, search engines, etc.)
+   ```
+   $ bundle install
+   ```
 
-* Deployment instructions
+3. Run rspec tests
 
-* ...
+   ```
+   $ bin/rspec
+   ... 0 failures
+   ```
+   
+4. Create, migrate, seed database and run server
+* Run the following commands 
+* Ensure the server is started on port 3000 and that there is nothing running on that port.
+
+   ```
+   $ rails db:drop db:create db:migrate db:seed
+   $ rails server -p 3000
+   ```
+   
+
+## Key areas of repo
+
+* [Conversations controller](app/controllers/conversations_controller.rb) 
+* [Messages controller](app/controllers/messages_controller.rb)
+* [Thoughts controller](app/controllers/thoughts_controller.rb)
+* [specs](spec/requests/)
+* [Routes](config/routes.rb)
+* [API Route Constraint](app/constraints/api_constraint.rb)
